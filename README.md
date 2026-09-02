@@ -1,43 +1,32 @@
-# Underwater World Exploration — V3
+# Underwater World Exploration — V5
 
-Multi-page static website with a new community activity section.
+## Main change
+Saturday Ocean Club is now a dedicated child-facing page: `ocean-club.html`.
 
-## Main pages
-- index.html — Home
-- story.html — My Story
-- diving.html — Diving Journey
-- pollution.html — Ocean Under Threat
-- marine-life.html — Marine Life in Singapore
-- pyp.html — My PYP Exhibition
-- action.html — Take Action
-- activities.html — Saturday Ocean Club
-- register.html — Registration interest page
-- sessions.html — Session journal / archive
-- resources.html — Young Explorer Zone + sources
-- 404.html
+### V5 design
+- Dedicated `🐠 Ocean Club` item in the top navigation
+- Strong homepage banner so children/parents can see the club immediately
+- Child-friendly language for ages 7–11
+- More visual emoji, but used as navigation/learning cues rather than decoration everywhere
+- Games, mini challenges, sea-animal prompts and hands-on activity language
+- Public location: condo function room near Lakeside MRT, Singapore
+- Exact condo details remain private until a parent has registered
+- `activities.html` and `register.html` removed to simplify the flow
 
-## Registration form
-The form is intentionally NOT connected to a database because this is a static GitHub/Cloudflare Pages site.
-Before public use, connect the form to one of:
-- Formspree
-- Google Forms
-- another privacy-appropriate form service
+## Google Form
+The JOIN button currently points to the Google Forms homepage as a placeholder.
+Create the actual Google Form, copy its public response URL, then replace:
+`https://forms.google.com/`
+inside `ocean-club.html` with the real form URL.
 
-Do not publicly expose:
-- home/condo name or unit number
-- children's full names
-- school details
-- private contact information
+Suggested Google Form fields:
+1. Parent / Guardian Name
+2. Child's First Name
+3. Child's Age
+4. Parent's WhatsApp / Mobile
+5. Which Saturday session would you like to join?
+6. Anything we should know?
 
-## GitHub / Cloudflare update
-Replace the repository files with everything from this V3 folder, then:
-1. Commit to `main`
-2. Push origin
-3. Cloudflare Pages should redeploy automatically
-
-
-## V4 changes
-- Saturday Ocean Club rewritten for children aged 7–11.
-- Venue shown publicly as `near Lakeside MRT, Singapore`.
-- Exact condo details remain private until registration confirmation.
-- Registration page is prominent but still requires a receiving endpoint/email before it can actually submit data.
+## Deployment
+Replace repository files with the V5 files, commit to `main`, and push origin.
+Cloudflare Pages should redeploy automatically.
