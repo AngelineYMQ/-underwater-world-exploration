@@ -36,8 +36,8 @@ The child-facing Saturday activity and main participation CTA.
 The PYP Exhibition still has its own detailed page and is linked from Take Action.
 
 ## Google Form
-The Ocean Club JOIN button still uses the placeholder Google Forms URL.
-Replace it with the actual form URL when ready.
+The Ocean Club JOIN button is connected to the live Google Form:
+https://forms.gle/WXKmPEHvBi5CfKtDA
 
 ## Deployment
 Replace repository files with V6, commit to main, then Push origin.
