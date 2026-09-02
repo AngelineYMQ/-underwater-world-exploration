@@ -1,30 +1,20 @@
-# Underwater World Exploration
+# Underwater World Exploration — V2
 
-Static website prepared for GitHub + Cloudflare Pages.
+Multi-page static website.
 
-## Files
-- `index.html` — main website
-- `assets/styles.css` — responsive styling
-- `assets/script.js` — smooth anchor navigation
+## Pages
+- index.html
+- story.html
+- diving.html
+- pollution.html
+- marine-life.html
+- pyp.html
+- action.html
+- resources.html
 
-## Deploy with GitHub + Cloudflare Pages
+## GitHub / Cloudflare update
+Replace the old repository files with all files from this folder and commit + push to `main`.
+Cloudflare Pages should redeploy automatically.
 
-1. Create a new GitHub repository.
-2. Upload the contents of this folder (not only the ZIP).
-3. In Cloudflare: **Workers & Pages → Create → Pages → Connect to Git**.
-4. Select the GitHub repository.
-5. Framework preset: **None**.
-6. Build command: leave blank.
-7. Build output directory: `/`
-8. Deploy.
-
-## Customisation before launch
-Recommended:
-- Replace the project name if the student has a preferred title.
-- Add the student's name only if the family wants it public.
-- Add real project photos (diving / PingShan School / PYP Exhibition) only with permission.
-- Add the final website domain to school application materials as supporting evidence.
-- Keep the NParks references in the footer because safety/species content draws on those sources.
-
-## Content note
-The "My Journey" section is adapted from the student's supplied 4-page narrative. Grammar and structure were polished for web readability, but the sequence of experiences was preserved.
+## Important
+The student's personal story is based on supplied materials. Do not add private school reports, application forms, addresses, dates of birth, contact information or other application data to the public website.
