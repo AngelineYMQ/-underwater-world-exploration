@@ -1,32 +1,44 @@
-# Underwater World Exploration — V5
+# Underwater World Exploration — V6
 
-## Main change
-Saturday Ocean Club is now a dedicated child-facing page: `ocean-club.html`.
+## Simplified main navigation
+- Home
+- My Story
+- Explore
+- Take Action
+- 🐠 Ocean Club
 
-### V5 design
-- Dedicated `🐠 Ocean Club` item in the top navigation
-- Strong homepage banner so children/parents can see the club immediately
-- Child-friendly language for ages 7–11
-- More visual emoji, but used as navigation/learning cues rather than decoration everywhere
-- Games, mini challenges, sea-animal prompts and hands-on activity language
-- Public location: condo function room near Lakeside MRT, Singapore
-- Exact condo details remain private until a parent has registered
-- `activities.html` and `register.html` removed to simplify the flow
+The navigation is intentionally kept short.
+
+## Information architecture
+### My Story
+The student's personal story and how her interests developed.
+
+### Explore
+A landing page that groups:
+- Marine Life in Singapore
+- Diving Journey
+- Ocean Pollution / Microplastics
+- Safe shore exploration / young explorer challenges
+
+### Take Action
+Groups the student's real-world actions:
+- Beach clean-ups
+- student sharing
+- PYP Exhibition
+- link to Saturday Ocean Club
+- session journal
+
+### Ocean Club
+The child-facing Saturday activity and main participation CTA.
+
+## PYPx
+`PYPx` is no longer shown as a main navigation label because visitors may not understand the abbreviation.
+The PYP Exhibition still has its own detailed page and is linked from Take Action.
 
 ## Google Form
-The JOIN button currently points to the Google Forms homepage as a placeholder.
-Create the actual Google Form, copy its public response URL, then replace:
-`https://forms.google.com/`
-inside `ocean-club.html` with the real form URL.
-
-Suggested Google Form fields:
-1. Parent / Guardian Name
-2. Child's First Name
-3. Child's Age
-4. Parent's WhatsApp / Mobile
-5. Which Saturday session would you like to join?
-6. Anything we should know?
+The Ocean Club JOIN button still uses the placeholder Google Forms URL.
+Replace it with the actual form URL when ready.
 
 ## Deployment
-Replace repository files with the V5 files, commit to `main`, and push origin.
+Replace repository files with V6, commit to main, then Push origin.
 Cloudflare Pages should redeploy automatically.
