@@ -1,43 +1,69 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Register interest for Saturday Ocean Club."><title>Register | Underwater World Exploration</title><link rel="stylesheet" href="assets/styles.css"></head>
-<body>
-<nav><div class="wrap navin">
+<meta name="description" content="Parent registration for Saturday Ocean Club near Lakeside MRT."><title>Register for Saturday Ocean Club | Underwater World Exploration</title><link rel="stylesheet" href="assets/styles.css"></head><body><nav><div class="wrap navin">
 <a class="brand" href="index.html"><span class="mark"></span>Underwater World Exploration</a>
 <div class="links">
 <a href="story.html">My Story</a><a href="diving.html">Diving</a><a href="pollution.html">Ocean Threats</a>
 <a href="marine-life.html">Marine Life</a><a href="pyp.html">PYPx</a><a href="action.html">Take Action</a>
 <a href="activities.html">Activities</a><a href="resources.html">For Kids</a>
 </div></div></nav>
+<header class="pagehead"><div class="wrap">
+<div class="crumb">Home / Saturday Ocean Club / Register</div>
+<div class="eyebrow">Saturday Ocean Club</div>
+<h1>Save me a spot!</h1>
+<p class="lead">Children can choose the session they like. A parent or guardian should complete the registration form below.</p>
+</div></header>
 
-<header class="pagehead"><div class="wrap"><div class="crumb">Home / Activities / Register</div>
-<div class="eyebrow">Saturday Ocean Club</div><h1>Register your interest.</h1>
-<p class="lead">The pilot series is intentionally small. Parents can leave their details below and choose the session they are most interested in.</p></div></header>
-
-<section><div class="wrap">
-<div class="formbox">
-<form action="#" method="post" onsubmit="event.preventDefault(); document.getElementById('demo-msg').style.display='block';">
-<div class="formgrid">
-<div><label for="parent">Parent / guardian name</label><input id="parent" name="parent" autocomplete="name" required></div>
-<div><label for="email">Email</label><input id="email" type="email" name="email" autocomplete="email" required></div>
-<div><label for="phone">Mobile number</label><input id="phone" name="phone" autocomplete="tel"></div>
-<div><label for="child">Child's first name</label><input id="child" name="child" required></div>
-<div><label for="age">Child's age</label><select id="age" name="age" required><option value="">Select</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>Other</option></select></div>
-<div><label for="session">Preferred session</label><select id="session" name="session" required><option value="">Select</option><option>Marine Life Around Singapore</option><option>What Not to Touch</option><option>Plastic, Microplastics & Food Chains</option><option>Young Shore Explorer</option><option>Any available session</option></select></div>
+<section><div class="wrap grid2">
+<div>
+<h2>Quick details</h2>
+<div class="kid-list">
+<div><b>📍 Where</b><br>Condo function room near Lakeside MRT</div>
+<div><b>🕙 When</b><br>Saturday mornings</div>
+<div><b>👧 Ages</b><br>About 7–11 years old</div>
+<div><b>💛 Pilot fee</b><br>Free</div>
 </div>
-<div style="margin-top:18px"><label for="notes">Anything we should know?</label><textarea id="notes" name="notes" placeholder="Allergies, learning needs, questions, or anything else you would like us to know."></textarea></div>
-<div class="check" style="margin-top:16px"><input id="consent" type="checkbox" required><label for="consent">I am the child's parent/guardian and I agree to be contacted about this activity.</label></div>
-<div class="check"><input id="photo" type="checkbox"><label for="photo">I am comfortable being asked separately about photo consent. No photo will be published based on this checkbox alone.</label></div>
-<button class="btn primary" type="submit">Submit interest</button>
-<p id="demo-msg" class="noticebar" style="display:none;margin-top:16px"><b>Form not connected yet.</b> This website is static. Connect this form to Formspree, Google Forms or another form service before sharing the registration page publicly.</p>
+<p class="parent-note">The exact location is sent privately to the parent/guardian after the place is confirmed.</p>
+</div>
+
+<div class="formbox">
+<h2 style="font-size:2rem">Parent registration</h2>
+<form action="#" method="post" onsubmit="event.preventDefault();document.getElementById('demo-msg').style.display='block';">
+<div class="formgrid">
+<div><label for="parent">Parent / guardian name</label><input id="parent" name="parent" required></div>
+<div><label for="contact">Mobile / WhatsApp</label><input id="contact" name="contact" required></div>
+<div><label for="child">Child's first name</label><input id="child" name="child" required></div>
+<div><label for="age">Age</label><select id="age" required><option value="">Choose age</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>Other</option></select></div>
+</div>
+
+<div style="margin-top:18px"><label for="session">Which Saturday sounds most fun?</label>
+<select id="session" required>
+<option value="">Choose a session</option>
+<option>Who Lives Around Singapore?</option>
+<option>Touch or Don’t Touch?</option>
+<option>Where Does Plastic Go?</option>
+<option>Be a Young Shore Explorer</option>
+<option>Any session is fine</option>
+</select></div>
+
+<div style="margin-top:18px"><label for="notes">Anything you want us to know?</label>
+<textarea id="notes" placeholder="Questions, allergies, learning needs, or anything helpful."></textarea></div>
+
+<div class="check" style="margin-top:16px"><input id="guardian" type="checkbox" required><label for="guardian">I am the child's parent/guardian and agree to be contacted about the activity.</label></div>
+
+<button class="btn primary" type="submit">Send registration</button>
+<p id="demo-msg" class="noticebar" style="display:none;margin-top:16px"><b>Registration page is ready, but the form still needs a receiving email/form service connected.</b> Once connected, this button will send the registration directly.</p>
 </form>
 </div>
 </div></section>
 
-<section class="soft"><div class="wrap"><h2>Before the first session</h2><div class="grid3">
-<div class="card"><h3>Parent confirmation</h3><p>Parents receive the exact venue, session time and simple arrival instructions privately.</p></div>
-<div class="card"><h3>Small group</h3><p>Places are limited to keep the session interactive and manageable.</p></div>
-<div class="card"><h3>No public child details</h3><p>Children's names, school details and contact information are never displayed publicly on this website.</p></div>
-</div></div></section>
+<section class="soft"><div class="wrap">
+<div class="eyebrow">For kids</div><h2>What should I bring?</h2>
+<div class="grid3">
+<div class="card"><div class="fun-icon">💧</div><h3>Water bottle</h3><p>Bring your own water bottle.</p></div>
+<div class="card"><div class="fun-icon">🧠</div><h3>Your questions</h3><p>We like difficult, strange and funny questions.</p></div>
+<div class="card"><div class="fun-icon">🌊</div><h3>Your curiosity</h3><p>You do not need to know anything about marine life before coming.</p></div>
+</div>
+</div></section>
 <footer><div class="wrap foot"><div><h3>Underwater World Exploration</h3>
 <p>A student-led learning project connecting curiosity, marine exploration, environmental learning and action.</p>
 <p class="small">Personal experiences are based on the student's own project narrative and supplied materials. Educational pages use external references listed on the Resources page.</p></div>

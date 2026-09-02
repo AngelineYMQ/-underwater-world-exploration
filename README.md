@@ -34,3 +34,10 @@ Replace the repository files with everything from this V3 folder, then:
 1. Commit to `main`
 2. Push origin
 3. Cloudflare Pages should redeploy automatically
+
+
+## V4 changes
+- Saturday Ocean Club rewritten for children aged 7–11.
+- Venue shown publicly as `near Lakeside MRT, Singapore`.
+- Exact condo details remain private until registration confirmation.
+- Registration page is prominent but still requires a receiving endpoint/email before it can actually submit data.
